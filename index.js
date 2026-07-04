@@ -1,9 +1,3 @@
-
-
-
-module.exports = {
-  ...(typeof combineUsers !== 'undefined' && { combineUsers })
-};
 require("datejs");
 
 function combineUsers(...args) {
@@ -25,6 +19,7 @@ function combineUsers(...args) {
 }
 
 module.exports = {
-  ...(typeof combineUsers !== 'undefined' && { combineUsers })
+  ...(typeof combineUsers !== "undefined" && { combineUsers })
 };
-};
+
+
